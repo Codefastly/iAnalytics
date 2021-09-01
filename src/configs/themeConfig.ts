@@ -1,5 +1,8 @@
 export default {
-    app: {
-        appName: 'iAnalytics'
-    }
+  app: {
+    appName: 'iAnalytics'
+  },
+  layout: {
+    skin: 'light' /** light, dark **/
+  }
 }
