@@ -28,6 +28,8 @@ module.exports = {
   ],
   rules: {
     'no-unused-vars': RULES.WARN,
-    'no-use-before-define': RULES.WARN
+    'no-use-before-define': RULES.WARN,
+    'react/display-name': RULES.OFF
   }
+
 }

@@ -1,14 +1,21 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { SafeAreaView, StyleSheet, Text } from 'react-native'
 
-const HomeScreen = () => {
+import { colors } from '../constants'
+
+export default () => {
   return (
-        <View>
-            <Text>I am HomeScreen</Text>
-        </View>
+        <SafeAreaView style={styles.container}>
+            <Text style={{ color: colors.pink[700] }}>
+              I am HomeScreen
+            </Text>
+        </SafeAreaView>
   )
 }
 
-export default HomeScreen
-
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    marginTop: 90
+  }
+})
