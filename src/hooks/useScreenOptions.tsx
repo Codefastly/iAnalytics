@@ -7,6 +7,12 @@ import { Button, Text } from 'react-native'
 import { StackActions } from '@react-navigation/routers'
 import { useNavigation } from '@react-navigation/native'
 
+export interface UserModel {
+  name: string,
+  email: string,
+  uid ?: string
+}
+
 export default () => {
   const navigation = useNavigation()
 

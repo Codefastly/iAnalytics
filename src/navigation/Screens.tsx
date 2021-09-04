@@ -7,6 +7,7 @@ import { useScreenOptions } from '../hooks'
 
 import {
   HomeScreen,
+  OnBoardingScreen,
   ShopScreen
 } from '../screens'
 
@@ -16,6 +17,11 @@ export default () => {
   const screenOptions = useScreenOptions()
   return (
     <Stack.Navigator screenOptions={screenOptions.stack}>
+      <Stack.Screen
+      name="OnBoarding"
+      component={OnBoardingScreen}
+      options={screenOptions.invisible}
+      />
       <Stack.Screen
         name="Home"
         component={HomeScreen}

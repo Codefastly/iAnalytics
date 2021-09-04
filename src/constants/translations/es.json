@@ -1,0 +1,28 @@
+{
+    "common": {
+        "appDetails": "Detalles de la aplicación",
+        "appName": "Nombre de la aplicación",
+        "appVersion": "Version de la aplicación",
+        "about": "Sobre nosotros",
+        "visit": "Visitar",
+        "posted": "Publicado el {{date}}",
+        "recommended": "Recomendado para ti",
+        "viewAll": "Ver todo",
+        "more": "Más"
+    },
+    "app": {
+        "name": "iAnalytics",
+        "fullname": "iAnalytics - Estadísticas Instagram Gratis",
+        "native": "React Native",
+        "link": "codefastly.net"
+    },
+    "darkMode": "Modo Oscuro",
+    "screens": {},
+    "navigation": {},
+    "home": {
+        "title": "Pantalla Inicio",
+        "posts": "Publicaciones",
+        "followers": "Seguidores",
+        "following": "Siguiendo"
+    }
+}
